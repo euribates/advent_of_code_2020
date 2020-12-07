@@ -15,5 +15,3 @@ for i in range(min_seat_id+1, max_seat_id):
         break
 
 print(f"Solution 2 is {sol}")
-
-

@@ -5,6 +5,6 @@ from seats import Seat
 
 
 def read_input(filename="input"):
-    with open('input', 'r') as f:
+    with open(filename, 'r') as f:
         for line in f.readlines():
             yield Seat(line.strip())

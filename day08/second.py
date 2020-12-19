@@ -25,8 +25,10 @@ def main():
         proc.reset()
         success = proc.run()
         if success:
-            print(f"Solution is change instruction on index {index}")
-            print(f"from {op} to {new_op}")
+            print(
+                f"Solution is to change instruction on index {index}",
+                f"from {op} to {new_op}",
+                )
             print(f"Solution 2: {proc.ACC}")
             break
         else:  # Restore memory

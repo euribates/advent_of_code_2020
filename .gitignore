@@ -133,3 +133,6 @@ extra/
 backups/
 database.sql
 database.tgz
+
+# Vim swap files
+.*.swp
